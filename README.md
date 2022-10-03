@@ -1,2 +1,2 @@
-# docker-auto
-script to automate docker image build
+# docker_auto
+testing image autobuild

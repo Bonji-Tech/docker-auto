@@ -1,4 +1,4 @@
 ARG versions
 FROM ubuntu:${versions}
-MAINTAINER Rudolph Nfor
+MAINTAINER Bola Ajayi
 EXPOSE 80

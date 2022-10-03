@@ -1,13 +1,13 @@
 #!/bin/bash
 #script to automate docker image build
-#Author: Prof Elvis N
-#Maintainer: Sr Eng Rudolph
+#Author: Bola Ajayi
+#Maintainer: Sr Engr Bola Ajayi
 #Company: Etech Consulting LLC
 today=`date`
 user=`whoami`
-dockeruser=yourcase
-password=yourcase
-dockerrepo=yourcase
+dockeruser=bjbonji
+password=22!Ghost88
+dockerrepo=docker_auto
 versions=( 18.04 20.04 21.10 16.04 22.04 )
 for i in ${versions[@]}; do
 docker build -t $dockeruser/$dockerrepo:$i --build-arg versions=groovy .

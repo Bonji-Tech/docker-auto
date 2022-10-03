@@ -6,7 +6,7 @@
 today=`date`
 user=`whoami`
 dockeruser=bjbonji
-password=22!Ghost88
+password=yourcase
 dockerrepo=docker_auto
 versions=( 18.04 20.04 21.10 16.04 22.04 )
 for i in ${versions[@]}; do
